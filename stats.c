@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief This c file contains the definitions of functions declared in the stats.h header file
+ *        and the implementation of the main function
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Jimmy Mugisha
+ * @date 10th April 2022
  *
  */
 
@@ -41,3 +41,45 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+void print_array(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+float find_median(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+float find_mean(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+unsigned char find_maximum(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+unsigned char find_minimum(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+void sort_array(unsigned char array[], unsigned int array_length)
+{
+  // Body
+}
+
+// A helper function to swap elements 
+void swap(unsigned char *a, unsigned char *b) 
+{ 
+  // Body 
+}  
+
